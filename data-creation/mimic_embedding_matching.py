@@ -13,13 +13,6 @@ print('Embedding Model loaded')
 def match_diagnosis(preprocessed_data):
     """
     Matches diagnosis descriptions to their most similar evidence texts based on embeddings.
-
-    Args:
-        diagnosis_entries (list): A list of diagnosis entries, where each entry is a list containing
-                                  HADM ID, evidence texts, ICD codes, descriptions, and annotated evidences.
-
-    Returns:
-        str: Path to the output CSV file containing the final diagnosis dataset.
     """
     
 
