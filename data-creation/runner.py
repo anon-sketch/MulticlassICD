@@ -50,7 +50,6 @@ def main():
     file_paths = {
         "mimic-iv": "../physionet.org/files/mimic-iv-note/2.2/note/icd_10_discharge.csv",
         "mimic-iii":"../physionet.org/files/mimiciii/1.4/mimiciii_icd_discharge.csv",
-        'test':'first_10_items.csv'
     }
 
     # Select the file path based on user input
